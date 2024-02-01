@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../web/favicon.png" rel="icon">
     <title>pet vibe</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -78,18 +79,19 @@
                             </a>
                     </ul>
                 </li>
-                <li><a href="#locate">Locations &amp; Hours</a>
+                <li><a href="#gmap">Locations &amp; Hours</a>
                 </li>
                 <li>
-                    <a href="#">About Us</a>
+                    <a href="#locate">About Us</a>
                 </li>
             </ul>
             <div id="utility">
                 <span class="material-symbols-outlined">
-                    search
+                    <img src="../web/search.png"  height="25">
+                    <figcaption>Search</figcaption>
                 </span>
                 <span class="material-symbols-outlined">
-                    shopping_cart
+                    <img src="../web/pets.png" height="4 0">
                 </span>
 
             </div>
@@ -208,20 +210,36 @@
     <section id="locate">
 
         <div>
-            <h2>Location &amp; Hours</h2>
-            <p>Our knowledgeable and friendly staff is always ready to assist you in making the best choices for your furry, feathered, or finned friends.</p>
+            <h2> About Us</h2>
+            
             <div class="btn-group">
-                <button class="btn-filled-dark"><span class="material-symbols-outlined">
-pin_drop
-</span>Find a Store</button>
-                <button class="btn-outline-dark btn-hover-color"><span class="material-symbols-outlined">
-contact_support
-</span> Contact Us</button>
-            </div>
+                <ul class="wrapper">
+                    <li class="icon facebook">
+                      <span class="tooltip">Facebook</span>
+                      <span><i class="fab fa-facebook-f"></i></span>
+                    </li>
+                    <li class="icon twitter">
+                      <span class="tooltip">Twitter</span>
+                      <span><i class="fab fa-twitter"></i></span>
+                    </li>
+                    <li class="icon instagram">
+                      <span class="tooltip">Instagram</span>
+                      <span><i class="fab fa-instagram"></i></span>
+                    </li>
+                    <li class="icon github">
+                      <span class="tooltip">Github</span>
+                      <span><i class="fab fa-github"></i></span>
+                    </li>
+                    <li class="icon youtube">
+                      <span class="tooltip">Youtube</span>
+                      <span><i class="fab fa-youtube"></i></span>
+                    </li>
+                  </ul></div>
         </div>
     </section>
 
     <footer>
+        <section id="gmap">
 
         <ul>
             Products
@@ -252,7 +270,10 @@ contact_support
             Our Company
             <li><a href="#">Locations &amp; Hours</a></li>
             <li><a href="#">About Us</a></li>
-        </ul>
+        </ul> 
+        <div><h2 style="color: ghostwhite;">Location</h2><br>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d816.9246622374723!2d80.1013153935003!3d13.101056464523385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1706444604072!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+        </section>
 
 
     </footer>
